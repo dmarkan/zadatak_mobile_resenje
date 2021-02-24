@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mobile</title>
+    <script>
+        $(document).ready(function () {
+            $("#menu").click(function () {
+                $(".menu_open").toggle("slide");
+            });
+        });
+        $(document).ready(function () {
+            $("#cross").click(function () {
+                $(".menu_open").toggle("slide");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="logo">
+        <img id="menu" src="images/menu.png" alt="menu">
+        <!-- navigation -->
+        <div class="menu_open">
+            <div id="bg"></div>
+            <img id="logo2" src="images/logo.png" alt="logo2">
+            <img id="cross" src="images/cross.png" alt="cross">
+            <div class="navigation">
+                <ul>
+                    <li id="home" onclick="scrollWin(0,0)"><b>HOME</b></li>
+                    <li id="about" onclick="scrollWin(0,580)"><b>ABOUT</b></li>
+                    <li id="services" onclick="scrollWin(0,2300)"><b>SERVICES</b></li>
+                    <li id="blog" onclick="scrollWin(0,2800)"><b>BLOG</b></li>
+                    <li id="contats" onclick="scrollWin(0,4000)"><b>CONTACTS</b></li>
+                </ul>
+            </div>
+            <button id="dugme"><b>REQUEST A QUOTE</b></button>
+        </div>
+    </header>
+    <main>
+        <!-- slider -->
+        <div id="rectangle1"></div>
+        <img id="slide1" src="images/slide1.png" alt="slide1">
+        <img id="slide2" src="images/slide2.png" alt="slide2">
+        <img id="slide3" src="images/slide3.png" alt="slide3">
+        <img id="slide4" src="images/slide4.png" alt="slide4">
+        <img id="arrow_left" src="images/arrow_left.png" alt="arrow_left">
+        <img id="arrow_left2" src="images/arrow_left.png" alt="arrow_left2">
+        <img id="arrow_left3" src="images/arrow_left.png" alt="arrow_left3">
+        <img id="arrow_left4" src="images/arrow_left.png" alt="arrow_left4">
+        <img id="arrow_right" src="images/arrow_right.png" alt="arrow_right">
+        <img id="arrow_right2" src="images/arrow_right.png" alt="arrow_right2">
+        <img id="arrow_right3" src="images/arrow_right.png" alt="arrow_right3">
+        <img id="arrow_right4" src="images/arrow_right.png" alt="arrow_right4">
+        <img id="dot" src="images/dot.png" alt="dot">
+        <img id="dot2" src="images/dot.png" alt="dot2">
+        <img id="dot3" src="images/dot.png" alt="dot3">
+        <img id="dot4" src="images/dot.png" alt="dot4">
+
+        <h1 id="your">Your Business Development</h1>
+        <p id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <button id="dugme2"><b>Try Now</b></button>
+
+        <img id="vector" src="images/vector.png" alt="vector">
+        <h6 id="innovation"><b>INNOVATION. PASSION. CREATIVITY</b></h6>
+        <p id="our"><b>OUR</b></p>&nbsp;&nbsp;
+        <p id="company"><b>COMPANY</b></p>
+        <p id="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus exercitationem
+            aperiam repellendus. Consectetur beatae quibusdam debitis at consequuntur. Minima sunt officiis assumenda
+            esse a ut in eaque tenetur ab!</p>
+        <p id="read"><b>READ MORE</b></p>
+        <p id="work"><b>Our work is</b></p>
+        <p id="more"><b>more</b></p>
+        <p id="research"><b>than research</b></p>
+        <p id="lorem3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <img id="target" src="images/target.png" alt="target">
+        <p id="awesome"><b>Awesome & Creative</b></p>
+        <p id="blood">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+
+        <div id="ellipse"></div>
+        <img id="megaphone" src="images/megaphone.png" alt="megaphone">
+        <p id="developement"><b>Developement Field</b></p>
+        <p id="blood2">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+
+        <div id="ellipse2"></div>
+        <img id="search" src="images/search.png" alt="search">
+        <h3 id="incredible"><b>Incredible Team</b></h3>
+        <p id="blood3">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+
+        <img id="vector2" src="images/vector2.png" alt="vector2">
+        <p id="our2"><b>OUR</b></p>&nbsp;&nbsp;
+        <p id="history"><b>HISTORY</b></p>
+        <h6 id="elevate"><b>ELEVATE YOUR FINANCIAL PERFORMANCES</b></h6>
+        <p id="lorem4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nostrum necessitatibus suscipit
+            repudiandae corrupti facere soluta omnis sed quod quasi, architecto magni natus amet illum, tempore
+            consequatur impedit? Consequatur, eius!</p>
+        <p id="read2"><b>READ MORE</b></p>
+
+        <h1 id="creativity"><b>CREATIVITY</b></h1>
+        <h6 id="but"><b>BUT NOT ONLY FOR YOUR PERFORMANCES</b></h6>
+        <p id="lorem5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, aut sint? Ipsam,
+            beatae! Qui consectetur nam at officia maiores, quam nulla voluptas cupiditate. Aperiam facere corporis
+            magni est et quidem.</p>
+        <p id="read3"><b>READ MORE</b></p>
+
+        <p id="what"><b>WHAT WE</b></p>
+        <p id="offer"><b>OFFER</b></p>
+        <img id="comp" src="images/comp.png" alt="comp">
+        <div id="bg2"></div>
+        <h4 id="why"><b>Why we best Consulting office in London?</b></h4>
+        <p id="rapid">Rapid solutions to the most complex business challenges with co-operative process-driven.</p>
+        <img id="signature" src="images/signature.png" alt="signature">
+        <p id="we"><b><i>We are an elite team of consultants whose mission is maximaze stakeholder value. From roadmap
+                    planning and solution implementation, to maintenance and support.</i></b></p>
+        <button id="dugme3"><b>SEE ALL SERVICES</b></button>
+
+        <div id="rectangle3"></div>
+        <div class="numbers">
+            <ul>
+                <li id="no1">7890</li>
+                <li id="no2">1M</li>
+                <li id="no3">1509</li>
+                <li id="no4">5972</li>
+            </ul>
+        </div>
+        <div class="letters">
+            <ul>
+                <li id="no5">COFFEE CUPS</li>
+                <li id="no6">SUBSCRIBERS</li>
+                <li id="no7">CUSTOMERS</li>
+                <li id="no8">PURCHASES</li>
+            </ul>
+        </div>
+
+        <div id="rectangle4"></div>
+        <h4 id="looking"><b>Looking for a First-Class Business Plan Consultant?</b></h4>
+        <button id="dugme4"><b>Start Now</b></button>
+
+        <p id="ready">Ready</p>
+        <p id="start"><b>to start?</b></p>
+        <p id="get"><b>Get a free financial plan</b></p>
+        <div id="email"></div>
+        <!-- email forma -->
+        <form class="forma" name="form" action="mailto:#" method="post">
+            <input id="labela" type="text" name="email" onfocus="this.value=''" value="Your email">
+            <input id="dugme5" type="submit" value="GET STARTED">
+        </form>
+    </main>
+    <footer>
+        <div id="rectangle5"></div>
+        <img id="logo3" src="images/logo.png" alt="logo3">
+        <div class="info">
+            <ul>
+                <li id="tel"><b>Tel:(00) 123456789</b></li>
+                <li id="fax"><b>Fax:(00) 12345678</b></li>
+                <li id="domain"><b>info@yourdomain.com</b></li>
+            </ul>
+        </div>
+        <!-- linkovi za drustvene mreze -->
+        <div class="social">
+            <div id="in"><a href="http://instagram.com" target="_blank">
+                    <img src="images/in.png" alt="in"></a></div>
+            <div id="fb"><a href="http://facebook.com" target="_blank">
+                    <img src="images/fb.png" alt="fb"></a></div>
+            <div id="tw"><a href="http://twitter.com" target="_blank">
+                    <img src="images/tw.png" alt="tw"></a></div>
+            <div id="gh"><a href="http://github.com" target="_blank">
+                    <img src="images/git.png" alt="git"></a></div>
+        </div>
+
+        <div class="column1">
+            <ul>
+                <li id="l1" onclick="scrollWin(0,-2800)"><b>About us</b></li>
+                <li id="l2" onclick="scrollWin(0,-900)"><b>Blog</b></li>
+                <li id="l3"><b>Our Team</b></li>
+                <li id="l4"><b>Developers</b></li>
+                <li id="l5"><b>CRM Solutions</b></li>
+                <li id="l6"><b>Online Help</b></li>
+            </ul>
+        </div>
+        <div class="column2">
+            <ul>
+                <li id="l7" onclick="scrollWin(0,-1460)"><b>Services</b></li>
+                <li id="l8"><b>How We Help</b></li>
+                <li id="l9"><b>Partners</b></li>
+                <li id="l10"><b>Where Are We</b></li>
+                <li id="l11" onclick="scrollWin(0,-2200)"><b>History</b></li>
+            </ul>
+        </div>
+        <div class="column3">
+            <ul>
+                <li id="l12"><b>Support</b></li>
+                <li id="l13"><b>Privacy Politics</b></li>
+                <li id="l14"><b>Support 24/7</b></li>
+                <li id="l15"><b>Get a Quote</b></li>
+                <li id="l16"><b>Work With Us</b></li>
+            </ul>
+        </div>
+
+        <div id="rectangle6"></div>
+        <div class="terms">
+            <ul>
+                <li id="pr"><b>Privacy</b></li>
+                <li id="ac"><b>Accessibility</b></li>
+                <li id="te"><b>Terms</b></li>
+            </ul>
+        </div>
+        <p id="privacy">&copy;2020 You Company Copyright</p>
+    </footer>
+<script src="main.js"></script>
+
+</body>
+
+</html>
